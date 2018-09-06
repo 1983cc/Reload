@@ -1,0 +1,15 @@
+{
+	"manifest_version" : 2,
+	"version" : "0.1",
+	"name" : "一直请求",
+	"description": "打不开网页一直请求",
+	"background" : {
+		"scripts" : ["background.js"],
+		"persistent" : false
+	},
+	"permissions" : [
+		"tabs",
+		"*://*.google.com.hk/*",
+		"*://*.bing.com/*"
+	]
+}
